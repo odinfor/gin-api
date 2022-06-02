@@ -2,6 +2,8 @@ package main
 
 // gorm gen 使用demo
 // 执行main方法，通过gorm gen生成相关代码和模型的映射关系.
+// 执行后在OutPath路径下生成model和query两个目录.
+// demo_user是因为database中已经存在的表同步所产生。mytables是ddl同步所产生
 
 import (
 	"gorm.io/gen"
